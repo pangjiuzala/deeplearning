@@ -6,7 +6,7 @@ import udc_model
 import udc_hparams
 import udc_metrics
 import udc_inputs
-from models.dual_encoder import dual_encoder_model
+from com.tensorflowTest.chatbot.models.dual_encoder import dual_encoder_model
 
 tf.flags.DEFINE_string("input_dir", "./data", "Directory containing input data files 'train.tfrecords' and 'validation.tfrecords'")
 tf.flags.DEFINE_string("model_dir", None, "Directory to store model checkpoints (defaults to ./runs)")

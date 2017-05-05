@@ -7,7 +7,7 @@ import udc_model
 import udc_hparams
 import udc_metrics
 import udc_inputs
-from models.dual_encoder import dual_encoder_model
+from com.tensorflowTest.chatbot.models.dual_encoder import dual_encoder_model
 
 tf.flags.DEFINE_string("test_file", "./data/test.tfrecords", "Path of test data in TFRecords format")
 tf.flags.DEFINE_string("model_dir", None, "Directory to load model checkpoints from")

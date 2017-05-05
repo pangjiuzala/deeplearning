@@ -42,7 +42,7 @@ HParams = namedtuple(
   ])
 
 def create_hparams():
-  return HParams(
+    return HParams(
     batch_size=FLAGS.batch_size,
     eval_batch_size=FLAGS.eval_batch_size,
     vocab_size=FLAGS.vocab_size,
