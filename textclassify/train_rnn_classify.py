@@ -3,7 +3,7 @@ import os
 import time
 from rnn_model import RNN_Model
 import data_helper
-
+#http://mp.weixin.qq.com/s?__biz=MjM5ODU3OTIyOA==&mid=2650664723&idx=3&sn=bbafe8e62de0f0555c3e77084aaa7805&chksm=bec1d26089b65b76cf27c80299ed1462008dc8a1c2c5243548382f03894a13ef2194240f3abf&scene=21#wechat_redirect
 flags =tf.app.flags
 FLAGS = flags.FLAGS
 
