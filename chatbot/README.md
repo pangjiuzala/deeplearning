@@ -22,7 +22,7 @@ http://wx.7399.com/shuma/534813.html
 #### Get the Data
 
 
-Download the train/dev/test data [here](https://drive.google.com/open?id=0B_bZck-ksdkpVEtVc1R6Y01HMWM) and extract the acrhive into `./data`.
+Download the train/dev/test data [here](http://pan.baidu.com/s/1i4Q5eWP) and extract the acrhive into `./data`.
 
 
 #### Training
