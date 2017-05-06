@@ -15,6 +15,10 @@ pip install -U pip
 pip install numpy scikit-learn pandas jupyter
 ```
 
+#### Introduce
+
+http://wx.7399.com/shuma/534813.html
+
 #### Get the Data
 
 
