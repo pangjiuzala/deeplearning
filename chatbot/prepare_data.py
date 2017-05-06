@@ -29,7 +29,7 @@ def create_csv_iter(filename):
     """
     Returns an iterator over a CSV file. Skips the header.
     """
-    with open(filename) as csvfile:
+    with open(filename,'r', encoding='UTF-8') as csvfile:
         reader = csv.reader(csvfile)
         # Skip the header
         next(reader)
