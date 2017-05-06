@@ -2,9 +2,8 @@ import array
 import numpy as np
 import tensorflow as tf
 from collections import defaultdict
-
+vocab = None
 def load_vocab(filename):
-    vocab = None
     with open(filename) as f:
         vocab = f.read().splitlines()
         dct = defaultdict(int)
