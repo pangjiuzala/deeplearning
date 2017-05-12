@@ -35,18 +35,18 @@ def extract_features(mail_dir):
     features_matrix = np.zeros((len(files),3000))
     docID = 0;
     for fil in files:
-      with open(fil) as fi:
-        for i,line in enumerate(fi):
-          if i == 2:
-            words = line.split()
-            for word in words:
-              wordID = 0
-              for i,d in enumerate(dictionary):
-                if d[0] == word:
-                  wordID = i
-                  features_matrix[docID,wordID] = words.count(word)
-        docID = docID + 1     
-    return features_matrix
+        with open(fil) as fi:
+            for i,line in enumerate(fi):
+                if i == 2:
+                    words = line.split()
+                    for word in words:
+                        wordID = 0
+                        for i,d in enumerate(dictionary):
+                            if d[0] == word:
+                                wordID = i
+                                features_matrix[docID,wordID] = words.count(word)
+                                docID = docID + 1     
+                                return features_matrix
     
 # Create a dictionary of words with its frequency
 
