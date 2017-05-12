@@ -1,5 +1,8 @@
 # pip install -U scikit-learn
 
+# 数据源
+https://pan.baidu.com/s/1gfCCCF5
+
 
 # Mail-Spam-Filtering
 It uses machine learning models to predict whether the email is spam or ligitimate.
