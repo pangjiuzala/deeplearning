@@ -187,6 +187,7 @@ def plot_with_labels(low_dim_embs, labels, filename='tsne.png'):
                      ha='right',
                      va='bottom')
         plt.savefig(filename)
+        
 
 try:
     # pylint: disable=g-import-not-at-top
