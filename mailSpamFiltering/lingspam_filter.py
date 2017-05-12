@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #http://mp.weixin.qq.com/s/NOLSTEkEWdSF_SGxEwmBqA
+# data source:http://pan.baidu.com/s/1gfCCCF5
 import os
 import numpy as np
 from collections import Counter
